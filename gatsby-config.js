@@ -11,5 +11,6 @@ module.exports = {
       options: { name: `blog`, path: `${__dirname}/blog` },
     },
     "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp",
   ],
 };

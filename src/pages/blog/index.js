@@ -24,8 +24,8 @@ export const query = graphql`
     allMdx(sort: { fields: frontmatter___date, order: DESC }) {
       nodes {
         frontmatter {
-          date(formatString: "DD MMM YYYY")
           title
+          date(formatString: "DD MMM YYYY")
         }
         id
         slug
